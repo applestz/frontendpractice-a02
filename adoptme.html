@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Information</title>
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body>
+        <h1>Adoption Application Form</h1>
+        <form>
+        <h2>Personal Information</h2>
+            <div class="formbox">
+                <label for="firstname">Firstname</label>
+                <input type="text" id="firstname" name="firstname" size="40" placeholder="Firstname">
+            </div>
+            <div class="formbox">
+                <label for="lastname">Lastname</label>
+                <input type="text" id="lastname" name="lastname" size="40" placeholder="Lastname">
+            </div>
+            <div class="formbox">
+                <label for="tel">Telephone Number</label>
+                <input type="tel" id="tel" name="tel" size="40" placeholder="Tel">
+            </div>
+            <div class="formbox">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" size="40" placeholder="Email">
+            </div>
+        <h2>Home Environment</h2>
+            <div class="formbox">
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address" size="40" placeholder="Address">
+            </div>
+            <div class="formbox">
+                <label for="accommodation">Type of Accommodation</label>
+                <select id="accommodation" name="accommodation" size="3">
+                    <option value="garden">บ้านสวน</option>
+                    <option value="detached">บ้านเดี่ยว</option>
+                    <option value="townhome">บ้านทาวน์โฮม</option>
+                    <option value="condo">คอนโดมิเนียม/หอพัก</option>
+                </select>
+            </div>
+            <div class="inlinebox">
+                <label>Where will the dog primarily live?</label>
+                <div>
+                    <input type="radio" id="indoor" name="living_place" value="indoor">
+                    <label for="indoor">เลี้ยงสุนัขภายในบ้าน</label>
+                </div>
+                <div>
+                    <input type="radio" id="outdoor" name="living_place" value="outdoor">
+                    <label for="outdoor">เลี้ยงสุนัขภายนอกบ้าน</label>
+                </div>
+            </div>
+            <div class="formbox">
+                <label for="dogs_amount">Current number of dogs</label>
+                <input type="number" id="dogs_amount" name="dogs_amount" min="0">
+            </div>
+            <div class="inlinebox">
+                <input type="checkbox" id="agreement" name="agreement">
+                <label for="agreement">การส่งแบบฟอร์มนี้เป็นการแจ้งความสนใจ โดยไม่รับรองการได้รับอุปการะสุนัข</label>
+            </div>
+        </form>
+        <p class="student_info" id="adoptme">Paweenarin Jearanilkulchai 6833162421</p>
+    </body>
+</html>

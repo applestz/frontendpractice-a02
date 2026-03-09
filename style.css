@@ -1,0 +1,51 @@
+.button {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+}
+
+.button:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+.dogs_info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dog_info {
+    margin: 1em;
+}
+
+.dog_pic {
+    width: 20em;
+    height: 20em;
+    object-fit: cover;
+    margin-bottom: 8px;
+}
+
+.formbox {
+    margin: 1em;
+}
+
+.formbox label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.inlinebox {
+    margin: 1em;
+}
+
+.student_info {
+    margin-top: 2em;
+    font-size: 1.5em;
+}
+
+#adoptme {
+    text-align: center;
+}
