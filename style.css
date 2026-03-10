@@ -1,4 +1,5 @@
 .button {
+    display: inline-block; 
     background-color: black;
     color: white;
     text-decoration: none;
@@ -8,7 +9,7 @@
 }
 
 .button:hover {
-    background-color: greenyellow;
+    background-color: rgb(47, 231, 255);
     color: black;
 }
 
@@ -26,6 +27,14 @@
     height: 20em;
     object-fit: cover;
     margin-bottom: 8px;
+}
+
+.info_table {
+    width: 20em;
+}
+
+.dog_name {
+    background-color: rgb(47, 231, 255);
 }
 
 .formbox {

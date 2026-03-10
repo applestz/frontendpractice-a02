@@ -3,18 +3,19 @@
     <head>
         <title>Information</title>
         <link rel="stylesheet" href="style.css"> 
+        <script src="adoptme.js"></script>
     </head>
     <body>
         <h1>Adoption Application Form</h1>
         <form>
         <h2>Personal Information</h2>
             <div class="formbox">
-                <label for="firstname">Firstname</label>
-                <input type="text" id="firstname" name="firstname" size="40" placeholder="Firstname">
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstName" name="firstName" size="40" placeholder="First Name">
             </div>
             <div class="formbox">
-                <label for="lastname">Lastname</label>
-                <input type="text" id="lastname" name="lastname" size="40" placeholder="Lastname">
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastName" name="lastName" size="40" placeholder="Last Name">
             </div>
             <div class="formbox">
                 <label for="tel">Telephone Number</label>
@@ -41,21 +42,24 @@
             <div class="inlinebox">
                 <label>Where will the dog primarily live?</label>
                 <div>
-                    <input type="radio" id="indoor" name="living_place" value="indoor">
+                    <input type="radio" id="indoor" name="livingPlace" value="indoor">
                     <label for="indoor">เลี้ยงสุนัขภายในบ้าน</label>
                 </div>
                 <div>
-                    <input type="radio" id="outdoor" name="living_place" value="outdoor">
+                    <input type="radio" id="outdoor" name="livingPlace" value="outdoor">
                     <label for="outdoor">เลี้ยงสุนัขภายนอกบ้าน</label>
                 </div>
             </div>
             <div class="formbox">
-                <label for="dogs_amount">Current number of dogs</label>
-                <input type="number" id="dogs_amount" name="dogs_amount" min="0">
+                <label for="dogsAmount">Current number of dogs</label>
+                <input type="number" id="dogsAmount" name="dogsAmount" min="0">
             </div>
             <div class="inlinebox">
                 <input type="checkbox" id="agreement" name="agreement">
                 <label for="agreement">การส่งแบบฟอร์มนี้เป็นการแจ้งความสนใจ โดยไม่รับรองการได้รับอุปการะสุนัข</label>
+            </div>
+            <div class="inlinebox">
+                <input type="submit" value="Submit Form" onclick="return check();">
             </div>
         </form>
         <p class="student_info" id="adoptme">Paweenarin Jearanilkulchai 6833162421</p>
